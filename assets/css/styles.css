@@ -640,6 +640,14 @@ body.dark-theme .raised-card:hover {
   position: relative;
 }
 
+.svg-container svg {
+  transition: transform 0.3s ease;
+}
+
+.svg-container:hover svg {
+  transform: scale(1.2);
+}
+
 .svg-label {
   display: none;
   position: absolute;
