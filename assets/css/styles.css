@@ -3,6 +3,11 @@
   --theme-color-dark: #6AD539;
 }
 
+/* Add smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -17,6 +22,16 @@ header {
   justify-content: space-between;
   padding: 20px 40px;
   color: #000000;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+header.dark-theme {
+  background-color: #1e1e1e;
 }
 
 .logo {
@@ -28,6 +43,8 @@ header {
   display: flex;
   align-items: center;
   margin-left: auto;
+  justify-content: flex-end;
+  flex-grow: 1;
 }
 
 nav ul {
@@ -59,6 +76,11 @@ main {
   margin: 0 auto;
   padding: 20px 0;
   padding-bottom: 80px;
+  padding-top: 95px;
+}
+
+main section {
+  margin-top: 80px;
 }
 
 main section h1 {
@@ -66,6 +88,12 @@ main section h1 {
   text-align: center;
   font-weight: 400;
   font-size: 54px;
+}
+
+/* Style for the selected section */
+.selected-section {
+  position: relative;
+  top: 0;
 }
 
 .hero {
@@ -77,30 +105,20 @@ main section h1 {
 }
 
 .intro-text {
-  width: 60%;
+  width: 70%;
   opacity: 0;
   transform: translateY(20px);
   animation: appear-from-bottom 1s forwards;
 }
 
 .hero-image {
-  width: 40%;
+  width: 30%;
   text-align: right;
   animation: appear-from-bottom 1s forwards;
 }
 
 .hero-image img {
-  width: 100%;
-  height: auto;
-}
-
-.home__blob {
-  width: 100%;
-  height: auto;
-}
-
-.home__blob-img {
-  width: 100%;
+  width: 60%;
   height: auto;
 }
 
@@ -558,10 +576,6 @@ textarea {
   font-weight: 500;
 }
 
-[type="submit"]:hover {
-  background: #0056b3;
-}
-
 .feedback-input.light-theme {
   border: 2px solid var(--theme-color-light);
 }
@@ -632,11 +646,24 @@ body.dark-theme .raised-card:hover {
 }
 
 .svg-label.dark-theme {
-  color: #000000;
-  background-color: var(--theme-color-dark);
+  color: var(--theme-color-dark);
 }
 
 .svg-label.light-theme {
-  color: #ffffff;
-  background-color: var(--theme-color-light);
+  color: var(--theme-color-light);
+}
+
+@keyframes appear-from-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.appear {
+  animation: appear-from-bottom 1s forwards;
 }
