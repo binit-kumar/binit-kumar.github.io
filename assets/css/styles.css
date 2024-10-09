@@ -352,6 +352,16 @@ footer.dark-theme p {
   color: var(--theme-color-dark);
 }
 
+.education-grade-duration,
+.education-grade-gpa {
+  margin-top: .5rem;
+}
+
+.education-grade-duration,
+.education-grade-gpa p{
+  margin: 0;
+}
+
 .visit-website-btn {
   display: inline-block;
   padding: 10px 20px;
