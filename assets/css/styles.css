@@ -655,15 +655,15 @@ body.dark-theme .raised-card:hover {
 
 @keyframes slideInFromLeft {
   from {
-    transform: translateX(-100%) rotateY(0deg);
+    transform: rotateY(0deg);
     opacity: 0;
   }
   to {
-    transform: translateX(0) rotateY(360deg);
+    transform: rotateY(360deg);
     opacity: 1;
   }
 }
 
 .education-card .svg-animate {
-  animation: slideInFromLeft 1s ease-out forwards;
+  animation: slideInFromLeft 1.5s ease-out forwards;
 }
