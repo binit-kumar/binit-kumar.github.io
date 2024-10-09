@@ -653,17 +653,17 @@ body.dark-theme .raised-card:hover {
   color: var(--theme-color-light);
 }
 
-@keyframes appear-from-bottom {
+@keyframes slideInFromLeft {
   from {
+    transform: translateX(-100%) rotateY(0deg);
     opacity: 0;
-    transform: translateY(20px);
   }
   to {
+    transform: translateX(0) rotateY(360deg);
     opacity: 1;
-    transform: translateY(0);
   }
 }
 
-.appear {
-  animation: appear-from-bottom 1s forwards;
+.education-card .svg-animate {
+  animation: slideInFromLeft 1s ease-out forwards;
 }

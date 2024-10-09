@@ -48,4 +48,20 @@ document.addEventListener('DOMContentLoaded', function () {
             this.classList.add('selected');
         });
     });
+
+    // Intersection Observer for SVG animation in education-card
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const svg = entry.target.querySelector('svg');
+                if (svg) {
+                    svg.classList.add('svg-animate');
+                }
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+
+    const educationCards = document.querySelectorAll('.education-card');
+    educationCards.forEach(card => observer.observe(card));
 });
