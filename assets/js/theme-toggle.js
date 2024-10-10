@@ -9,13 +9,15 @@ document.addEventListener('DOMContentLoaded', function () {
   const viewTranscriptLinks = document.querySelectorAll('.view-transcript-link');
   const educationDetailsLinks = document.querySelectorAll('.education-details-link');
   const heroMask = document.querySelector('.hero-mask');
-  const cardLinks = document.querySelectorAll('.card-link');
+  const cardLinks = document.querySelectorAll('.certifications-card-link');
   const contactImages = document.querySelectorAll('.contact-image');
   const feedbackInputs = document.querySelectorAll('.feedback-input');
   const submitButton = document.querySelector('[type="submit"]');
   const dynamicTextElement = document.getElementById('dynamic-text');
   const roles = ["Principal Software Engineer,", "Full Stack Developer,", "Cloud Engineer,"];
   const svgLabels = document.querySelectorAll('.svg-label');
+  const plusIcon = document.querySelector('.plus-icon');
+  const minusIcon = document.querySelector('.minus-icon');
   const typingSpeed = 100;
   const delayBetweenRoles = 2000;
 
@@ -68,6 +70,8 @@ document.addEventListener('DOMContentLoaded', function () {
       });
       submitButton.classList.add('dark-theme');
       submitButton.classList.remove('light-theme');
+      plusIcon.style.fill = getComputedStyle(body).getPropertyValue('--theme-color-dark').trim();
+      minusIcon.style.fill = getComputedStyle(body).getPropertyValue('--theme-color-dark').trim();
       slider.checked = true; // Set the slider to checked for dark theme
     } else {
       body.classList.add('light-theme');
@@ -108,6 +112,8 @@ document.addEventListener('DOMContentLoaded', function () {
       });
       submitButton.classList.add('light-theme');
       submitButton.classList.remove('dark-theme');
+      plusIcon.style.fill = getComputedStyle(body).getPropertyValue('--theme-color-light').trim();
+      minusIcon.style.fill = getComputedStyle(body).getPropertyValue('--theme-color-light').trim();
       slider.checked = false; // Set the slider to unchecked for light theme
     }
   }
