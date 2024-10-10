@@ -671,17 +671,17 @@ body.dark-theme .raised-card:hover {
   color: var(--theme-color-light);
 }
 
-@keyframes slideInFromLeft {
+@keyframes appearBottomAndFlip {
   from {
-    transform: rotateY(0deg);
+    transform: translateY(20%) rotateY(180deg);
     opacity: 0;
   }
   to {
-    transform: rotateY(360deg);
+    transform: translateY(0) rotateY(360deg);
     opacity: 1;
   }
 }
 
 .education-card .svg-animate {
-  animation: slideInFromLeft 1.5s ease-out forwards;
+  animation: appearBottomAndFlip 1s ease-out forwards;
 }
