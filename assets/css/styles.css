@@ -22,6 +22,17 @@ body {
   color: #000000;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -660,6 +671,14 @@ body.dark-theme .raised-card:hover {
 
 .svg-container:hover svg {
   transform: scale(1.1);
+}
+
+.image-links a {
+  transition: transform 0.3s ease;
+}
+
+.image-links a:hover {
+  transform: scale(1.2);
 }
 
 .svg-label {
