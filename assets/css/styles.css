@@ -943,12 +943,11 @@ body.dark-theme .raised-card:hover {
   display: inline-block;
   text-align: left;
   visibility: visible;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
   font-family: monospace;
   height: 20px;
+  vertical-align: top;
+  line-height: 1.25rem;
+  margin-top: 5px;
 }
 
 body.light-theme #dynamic-text {
