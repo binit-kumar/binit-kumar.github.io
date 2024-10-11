@@ -14,10 +14,12 @@ document.addEventListener('DOMContentLoaded', function () {
   const feedbackInputs = document.querySelectorAll('.feedback-input');
   const submitButton = document.querySelector('[type="submit"]');
   const dynamicTextElement = document.getElementById('dynamic-text');
-  const roles = ["Principal Software Engineer, ", "Full Stack Developer, ", "Cloud Engineer, "];
+  const roles = ["Full Stack Developer, ", "Cloud Engineer, ", "Principal Software Engineer, "];
   const svgLabels = document.querySelectorAll('.svg-label');
   const plusIcon = document.querySelector('.plus-icon');
   const minusIcon = document.querySelector('.minus-icon');
+  const hamburgerMenu = document.querySelector('.hamburger-menu');
+  const navMenu = document.querySelector('.nav-menu');
   const typingSpeed = 100;
   const delayBetweenRoles = 2000;
 
@@ -72,6 +74,10 @@ document.addEventListener('DOMContentLoaded', function () {
       submitButton.classList.remove('light-theme');
       plusIcon.style.fill = getComputedStyle(body).getPropertyValue('--theme-color-dark').trim();
       minusIcon.style.fill = getComputedStyle(body).getPropertyValue('--theme-color-dark').trim();
+      hamburgerMenu.classList.add('dark-theme');
+      hamburgerMenu.classList.remove('light-theme');
+      navMenu.classList.add('dark-theme');
+      navMenu.classList.remove('light-theme');
       slider.checked = true; // Set the slider to checked for dark theme
     } else {
       body.classList.add('light-theme');
@@ -114,6 +120,10 @@ document.addEventListener('DOMContentLoaded', function () {
       submitButton.classList.remove('dark-theme');
       plusIcon.style.fill = getComputedStyle(body).getPropertyValue('--theme-color-light').trim();
       minusIcon.style.fill = getComputedStyle(body).getPropertyValue('--theme-color-light').trim();
+      hamburgerMenu.classList.add('light-theme');
+      hamburgerMenu.classList.remove('dark-theme');
+      navMenu.classList.add('light-theme');
+      navMenu.classList.remove('dark-theme');
       slider.checked = false; // Set the slider to unchecked for light theme
     }
   }

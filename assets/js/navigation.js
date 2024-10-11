@@ -84,4 +84,13 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
+
+    // Hamburger menu functionality
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const navMenu = document.querySelector('.nav-menu');
+
+    hamburgerMenu.addEventListener('click', function () {
+        navMenu.classList.toggle('active');
+    });
+
 });
