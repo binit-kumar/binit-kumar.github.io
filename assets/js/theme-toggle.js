@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const feedbackInputs = document.querySelectorAll('.feedback-input');
   const submitButton = document.querySelector('[type="submit"]');
   const dynamicTextElement = document.getElementById('dynamic-text');
-  const roles = ["Principal Software Engineer,", "Full Stack Developer,", "Cloud Engineer,"];
+  const roles = ["Principal Software Engineer, ", "Full Stack Developer, ", "Cloud Engineer, "];
   const svgLabels = document.querySelectorAll('.svg-label');
   const plusIcon = document.querySelector('.plus-icon');
   const minusIcon = document.querySelector('.minus-icon');

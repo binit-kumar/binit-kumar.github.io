@@ -245,6 +245,8 @@ footer.dark-theme p {
   transform: translateX(26px);
 }
 
+
+
 .certifications-card-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
