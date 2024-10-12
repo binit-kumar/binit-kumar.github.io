@@ -702,14 +702,18 @@ body.dark-theme .caret-up path {
   .education-card {
     flex-direction: row;
     align-items: flex-start;
-  } 
+  }
+  
+  .education-logo {
+    align-self: center;
+  }
 
   .education-logo svg {
     flex: 0 0 30%;
     max-width: 200px;
     height: 200px;
     margin-bottom: 0;
-    padding: 1rem;
+    padding: 1rem;    
   }
 
   .education-content {
