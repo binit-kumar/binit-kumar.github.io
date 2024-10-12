@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="144px" height="144px"
+    fill-rule="evenodd" clip-rule="evenodd" baseProfile="basic">
+    <linearGradient id="MJzzMjMo8cxz4tlSR-fIJa" x1="-68.322" x2="-61.797" y1="-1.403"
+        y2="35.599" gradientTransform="translate(89.037 6.79)"
+        gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#0066b4" />
+        <stop offset=".99" stop-color="#003577" />
+        <stop offset="1" stop-color="#003577" />
+    </linearGradient>
+    <path fill="url(#MJzzMjMo8cxz4tlSR-fIJa)"
+        d="M23.997,3.999c11.04,0,20.001,8.96,20.001,20	c0,11.04-8.961,20-20.001,20s-20.001-8.96-20.001-20C3.996,12.959,12.957,3.999,23.997,3.999z" />
+    <path fill="#fff" fill-rule="evenodd"
+        d="M11.997,26.999V16	l1.764-0.001l6.236,9.727v-9.727h1.001v10.999l-1.705,0.001l-6.295-9.816v9.816H11.997z"
+        clip-rule="evenodd" />
+    <path fill="#fff" fill-rule="evenodd"
+        d="M8.997,24.999	c0.551,0,1,0.449,1,1c0,0.551-0.449,1-1,1c-0.551,0-1-0.449-1-1C7.997,25.448,8.447,24.999,8.997,24.999z"
+        clip-rule="evenodd" />
+    <path fill="#fff" fill-rule="evenodd"
+        d="M23.997,26.999V16h6	v0.999h-4.999V21h4v0.999h-4v4h4.999V27L23.997,26.999z"
+        clip-rule="evenodd" />
+    <path fill="#fff" fill-rule="evenodd"
+        d="M34.997,26.999v-10H31	V16h8.999v0.999h-4v10H34.997z" clip-rule="evenodd" />
+    <path fill="#f2f2f2" fill-rule="evenodd"
+        d="M20.997,33.499	c0-1.38,0.897-2.5,2.001-2.5S25,32.119,25,33.499c0,1.38-0.897,2.5-2.001,2.5S20.997,34.879,20.997,33.499z M23.999,33.499	c0-0.828-0.448-1.5-1-1.5s-1,0.672-1,1.5c0,0.828,0.448,1.5,1,1.5S23.999,34.327,23.999,33.499z"
+        clip-rule="evenodd" />
+    <path fill="#f2f2f2" fill-rule="evenodd"
+        d="M28.996,33.499	c0-1.38,0.897-2.5,2.001-2.5c1.104,0,2.001,1.12,2.001,2.5c0,0.172-0.015,0.34-0.041,0.501h-2.903	c0.137,0.583,0.508,0.999,0.943,0.999h1.6c-0.365,0.608-0.947,1-1.6,1C29.893,35.999,28.996,34.879,28.996,33.499z M30.997,31.999	c-0.436,0-0.807,0.417-0.944,1h1.887C31.803,32.416,31.432,31.999,30.997,31.999z"
+        clip-rule="evenodd" />
+    <path fill="#f2f2f2" fill-rule="evenodd"
+        d="M25.997,35.999V31h1.001	v0.999c0.384-0.716,0.903-1,2-1v1c-1.097,0-1.616,0.284-2,1v3H25.997z"
+        clip-rule="evenodd" />
+    <path fill="#f2f2f2" fill-rule="evenodd"
+        d="M14.999,32.499	c0-1.932,1.568-3.5,3.5-3.5c0.536,0,1.045,0.121,1.5,0.337V30.5c-0.419-0.315-0.939-0.501-1.5-0.501c-1.38,0-2.5,1.12-2.5,2.5	c0,1.38,1.12,2.5,2.5,2.5c0.561,0,1.081-0.185,1.5-0.5v1.164c-0.455,0.216-0.964,0.336-1.5,0.336	C16.567,35.999,14.999,34.431,14.999,32.499z"
+        clip-rule="evenodd" />
+</svg>
