@@ -1,6 +1,7 @@
 :root {
   --theme-color-light: #3880F3;
   --theme-color-dark: #6AD539;
+  --header-height: 87px;
 }
 
 /* Add smooth scrolling */
@@ -148,7 +149,7 @@ main section h1 {
 /* Navigation Menu Styles */
 .hamburger-menu {
   display: block;
-  font-size: 2rem;
+  font-size: 2.5rem;
   background: none;
   border: none;
   cursor: pointer;
@@ -164,9 +165,10 @@ main section h1 {
   flex-direction: column;
   align-items: flex-start;
   position: absolute;
-  top: 78px;
+  top: var(--header-height);
   width: fit-content;
-  padding: 10px;
+  right: 0;
+  padding: .5rem;
 }
 
 .nav-menu.active {
@@ -177,20 +179,22 @@ main section h1 {
 .nav-menu.active ul {
   list-style: none;
   margin: 0;
-  padding: .5rem 0;
+  padding-left: 0;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-menu.active ul li {
-  padding: .5rem 0;
+  padding: .5rem;
   text-decoration: none;
+  align-items: center;
 }
 
 .nav-menu.active ul li a {
   font-size: 1rem;
   text-decoration: none;
-  padding: 5px 10px;
   transition: font-size 0.3s, border-bottom 0.3s;
 }
 
@@ -377,18 +381,18 @@ footer p {
     width: auto;
   }
   
-  nav ul {
+  .nav-menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
   }
   
-  nav ul li {
+  .nav-menu ul li {
     margin-left: 1rem;
   }
   
-  nav ul li a {
+  .nav-menu ul li a {
     color: #000000;
     font-size: 1.3rem;
     text-decoration: none;
@@ -396,7 +400,7 @@ footer p {
     transition: font-size 0.3s, border-bottom 0.3s;
   }
   
-  nav ul li a:hover {
+  .nav-menu ul li a:hover {
     color: var(--theme-color-light);
     border-bottom: 4px solid var(--theme-color-light);
   }
@@ -729,8 +733,8 @@ body.dark-theme .minus-icon path {
   text-decoration: none;
   display: inline-block;
   text-align: center;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: .8rem;
+  border-radius: 40px;
 }
 
 .view-transcript-link.light-theme {
@@ -773,12 +777,14 @@ body.dark-theme .minus-icon path {
 /* Visit Website Button Styles */
 .visit-website-btn {
   display: inline-block;
-  padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  padding: .8rem;
+  border-radius: 40px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
   text-decoration: none;
+  text-align: center;
+
 }
 
 .visit-website-btn.light-theme {

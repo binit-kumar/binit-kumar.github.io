@@ -2,7 +2,19 @@ document.addEventListener('DOMContentLoaded', function () {
     const sections = document.querySelectorAll('main section');
     const navLinks = document.querySelectorAll('nav ul li a');
     const header = document.querySelector('header');
-    const headerHeight = header.offsetHeight;
+    const root = document.documentElement;
+    const navMenu = document.querySelector('.nav-menu');
+
+    function setHeaderHeight() {
+        const headerHeight = header.offsetHeight;
+        root.style.setProperty('--header-height', `${headerHeight}px`);
+    }
+
+    // Set the header height on page load
+    setHeaderHeight();
+
+    // Update the header height on window resize
+    window.addEventListener('resize', setHeaderHeight);
 
     // Hide all sections except the home section on page load
     sections.forEach(section => {
@@ -37,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Scroll the selected section to the top, adjusting for the header height
             window.scrollTo({
-                top: targetSection.offsetTop - headerHeight,
+                top: targetSection.offsetTop - header.offsetHeight,
                 behavior: 'smooth'
             });
 
@@ -46,7 +58,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Add 'selected' class to the clicked nav link
             this.classList.add('selected');
+
+            // Hide the navigation menu
+            navMenu.classList.remove('active');
         });
+    });
+
+    // Hide nav menu when clicking outside of it
+    document.addEventListener('click', function (event) {
+        if (!navMenu.contains(event.target) && !event.target.matches('.hamburger-menu')) {
+            navMenu.classList.remove('active');
+        }
     });
 
     // Intersection Observer for SVG animation in education-card
@@ -87,10 +109,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Hamburger menu functionality
     const hamburgerMenu = document.querySelector('.hamburger-menu');
-    const navMenu = document.querySelector('.nav-menu');
 
     hamburgerMenu.addEventListener('click', function () {
         navMenu.classList.toggle('active');
     });
-
 });
