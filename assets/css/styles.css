@@ -184,7 +184,7 @@ main section h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .nav-menu.active ul li {
@@ -328,7 +328,7 @@ footer p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   width: 70%;
 }
 
@@ -343,6 +343,7 @@ footer p {
   text-decoration: none;
   margin-top: auto;
   align-self: flex-end;
+  font-size: 1rem;
 }
 
 .certifications-card-link:hover {
@@ -661,6 +662,14 @@ body.dark-theme .caret-up path {
 
   .skills-card-content img::after {
     top: -1.5rem;    
+  }
+
+  .svg-label {
+    font-size: 1rem !important;
+  }
+  
+  .svg-container:hover .svg-label {
+    top: 4rem;
   }
 
   /* Footer Styles for larger screens */
@@ -996,6 +1005,7 @@ body.dark-theme #dynamic-text {
   flex-direction: column;
   align-items: center;
   position: relative;
+  padding-bottom: .5rem;
 }
 
 .svg-container svg {
@@ -1017,8 +1027,8 @@ body.dark-theme #dynamic-text {
 .svg-label {
   display: none;
   position: absolute;
-  top: 60px;
-  font-size: 1rem;
+  top: 2rem;
+  font-size: .5rem;
   padding: 2px;
   border-radius: 3px;
   width: auto;

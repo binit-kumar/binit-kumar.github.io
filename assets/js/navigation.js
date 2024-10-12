@@ -113,4 +113,26 @@ document.addEventListener('DOMContentLoaded', function () {
     hamburgerMenu.addEventListener('click', function () {
         navMenu.classList.toggle('active');
     });
+
+    // Show .svg-label on touch for smaller screens
+    const svgContainers = document.querySelectorAll('.svg-container');
+    let lastTouchedLabel = null;
+
+    svgContainers.forEach(container => {
+        container.addEventListener('touchstart', function () {
+            const label = container.querySelector('.svg-label');
+            if (label) {
+                // Hide the previously shown label
+                if (lastTouchedLabel && lastTouchedLabel !== label) {
+                    lastTouchedLabel.style.display = 'none';
+                }
+
+                // Toggle the display of the current label
+                label.style.display = label.style.display === 'block' ? 'none' : 'block';
+
+                // Update the last touched label
+                lastTouchedLabel = label;
+            }
+        });
+    });
 });
