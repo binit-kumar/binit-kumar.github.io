@@ -90,19 +90,19 @@ document.addEventListener('DOMContentLoaded', function () {
     // Toggle plus/minus icons and details content for each card
     const toggleIcons = document.querySelectorAll('.toggle-icon');
     toggleIcons.forEach(toggleIcon => {
-        const plusIcon = toggleIcon.querySelector('.plus-icon');
-        const minusIcon = toggleIcon.querySelector('.minus-icon');
+        const caretRight = toggleIcon.querySelector('.caret-right');
+        const caretUp = toggleIcon.querySelector('.caret-up');
         const detailsContent = toggleIcon.closest('.education-details').querySelector('.education-details-content');
 
         toggleIcon.addEventListener('click', function () {
             if (detailsContent.classList.contains('show')) {
                 detailsContent.classList.remove('show');
-                plusIcon.style.display = 'inline';
-                minusIcon.style.display = 'none';
+                caretRight.style.display = 'inline';
+                caretUp.style.display = 'none';
             } else {
                 detailsContent.classList.add('show');
-                plusIcon.style.display = 'none';
-                minusIcon.style.display = 'inline';
+                caretRight.style.display = 'none';
+                caretUp.style.display = 'inline';
             }
         });
     });

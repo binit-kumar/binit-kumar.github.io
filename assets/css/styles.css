@@ -644,28 +644,23 @@ footer.dark-theme p {
 }
 
 .toggle-icon svg {
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
 }
 
-.plus-icon path {
-  stroke: var(--theme-color-light);
-  stroke-width: 1px;
+.caret-right path {
+  fill: var(--theme-color-light);
 }
 
-.minus-icon path {
-  stroke: var(--theme-color-light);
-  stroke-width: 1px;
+.caret-up path {
+  fill: var(--theme-color-light);
 }
 
-body.dark-theme .plus-icon path {
-  stroke: var(--theme-color-dark);
-  stroke-width: 1px;
+body.dark-theme .caret-right path {
+  fill: var(--theme-color-dark);
 }
 
-body.dark-theme .minus-icon path {
-  stroke: var(--theme-color-dark);
-  stroke-width: 1px;
+body.dark-theme .caret-up path {
+  fill: var(--theme-color-dark);
 }
 
 .education-details-content {
@@ -686,22 +681,6 @@ body.dark-theme .minus-icon path {
   gap: 1rem;
 }
 
-.education-card {
-  display: flex;
-  width: 100%;
-  border: 1px solid #ccc;
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 1rem;
-}
-
-.education-logo {
-  flex: 0 0 30%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .education-logo svg {
   max-width: 200px;
   height: 200px;
@@ -719,6 +698,22 @@ body.dark-theme .minus-icon path {
   font-size: 1.2rem;
   margin: 0;
   border-bottom: 1px dotted #ccc;
+}
+
+.education-card {
+  display: flex;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+
+.education-logo {
+  flex: 0 0 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .eduction-button-row {
