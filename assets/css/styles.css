@@ -417,7 +417,7 @@ body.dark-theme .caret-up path {
   gap: 1rem;
 }
 
-.education-logo svg {
+.education-logo img {
   max-width: 100px;
   height: 100px;
   object-fit: contain;
@@ -717,7 +717,7 @@ body.dark-theme .caret-up path {
     align-self: center;
   }
 
-  .education-logo svg {
+  .education-logo img {
     flex: 0 0 30%;
     max-width: 200px;
     height: 200px;
@@ -852,7 +852,7 @@ footer.dark-theme p {
 .contact-image {
   width: 3rem;
   height: 3rem;
-  fill: var(--theme-color-light);
+  color: var(--theme-color-light);
 }
 
 /* Flex Container Styles */
