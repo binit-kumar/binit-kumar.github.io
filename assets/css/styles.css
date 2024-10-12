@@ -538,7 +538,11 @@ body.dark-theme .caret-up path {
 /* Styles for larger screens (laptop and desktop) */
 @media (min-width: 1024px) {
   /* Default section width for laptop/desktop screen sizes */
-  #home, #education{
+  #home{
+    width: 70vw;
+  }
+
+  #education{
     width: 60vw;
   }
 
