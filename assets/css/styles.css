@@ -254,7 +254,7 @@ main section h1 {
   gap: 1rem;
 }
 
-.skills-card-content svg {
+.skills-card-content img {
   width: 2rem;
   height: 2rem;
   position: relative;
@@ -655,7 +655,7 @@ body.dark-theme .caret-up path {
     font-size: 2rem;
   }
   
-  .skills-card-content svg {
+  .skills-card-content img {
     width: 4rem;
     height: 4rem;
   }
@@ -1008,11 +1008,11 @@ body.dark-theme #dynamic-text {
   padding-bottom: .5rem;
 }
 
-.svg-container svg {
+.svg-container img {
   transition: transform 0.3s ease;
 }
 
-.svg-container:hover svg {
+.svg-container:hover img {
   transform: scale(1.1);
 }
 
@@ -1059,7 +1059,7 @@ body.dark-theme #dynamic-text {
   }
 }
 
-.education-card .svg-animate {
+.education-card .education-logo {
   animation: appearBottomAndFlip 1s ease-out forwards;
 }
 
