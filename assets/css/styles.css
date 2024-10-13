@@ -327,9 +327,16 @@ footer p {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  height: 100%;
   width: 70%;
+}
+
+.certifications-card-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: auto;
 }
 
 .certifications-card-name {
@@ -339,23 +346,58 @@ footer p {
 }
 
 .certifications-card-link {
-  color: #007BFF;
   text-decoration: none;
   margin-top: auto;
   align-self: flex-end;
   font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
 }
 
-.certifications-card-link:hover {
-  text-decoration: underline;
+/* Certifications card light theme buttons */
+.certifications-card-solid-button.light-theme {
+  background-color: var(--theme-color-light);
+  color: #ffffff;
+  border: 1px solid transparent;
 }
 
-.certifications-card-link.light-theme {
+.certifications-card-solid-button.light-theme:hover {
+  background-color: #0056b3;
+}
+
+.certifications-card-hollow-button.light-theme {
+  background-color: transparent;
   color: var(--theme-color-light);
+  border: 1px solid var(--theme-color-light);
 }
 
-.certifications-card-link.dark-theme {
+.certifications-card-hollow-button.light-theme:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+/* Certifications card dark theme buttons */
+.certifications-card-solid-button.dark-theme {
+  background-color: var(--theme-color-dark);
+  color: #000000;
+  border: 1px solid transparent;
+}
+
+.certifications-card-solid-button.dark-theme:hover {
+  background-color: #4CAF50;
+}
+
+.certifications-card-hollow-button.dark-theme {
+  background-color: transparent;
   color: var(--theme-color-dark);
+  border: 1px solid var(--theme-color-dark);
+}
+
+.certifications-card-hollow-button.dark-theme:hover {
+  background-color: #4CAF50;
+  color: #000000;
+  border: none;
 }
 
 /* Education Card Styles */
@@ -464,30 +506,39 @@ body.dark-theme .caret-up path {
   text-decoration: none;
   display: inline-block;
   text-align: center;
-  padding: .8rem;
-  border-radius: 40px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 2rem;
 }
 
 .view-transcript-link.light-theme {
-  border: 1.5px solid var(--theme-color-light);
+  border: 2px solid var(--theme-color-light);
 }
 
 .view-transcript-link.dark-theme {
-  border: 1.5px solid var(--theme-color-dark);
-}
-
-.view-transcript-link:hover,
-.education-details-link:hover {
-  text-decoration: underline;
-}
-
-.education-details-link {
-  text-decoration: none;
+  border: 2px solid var(--theme-color-dark);
 }
 
 .view-transcript-link.light-theme,
 .education-details-link.light-theme {
   color: var(--theme-color-light);
+}
+
+.view-transcript-link.dark-theme,
+.education-details-link.dark-theme {
+  color: var(--theme-color-dark);
+}
+
+.view-transcript-link.light-theme:hover{
+  background-color: #0056b3;
+  color: #ffffff;
+  border: #0056b3;
+}
+
+.view-transcript-link.dark-theme:hover{
+  background-color: #4CAF50;
+  color: #000000;
+  border: #4CAF50;
 }
 
 .view-transcript-link.dark-theme,
