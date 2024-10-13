@@ -501,51 +501,6 @@ body.dark-theme .caret-up path {
   width: 100%;
 }
 
-.view-transcript-link {
-  margin-left: auto;
-  text-decoration: none;
-  display: inline-block;
-  text-align: center;
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
-  border-radius: 2rem;
-}
-
-.view-transcript-link.light-theme {
-  border: 2px solid var(--theme-color-light);
-}
-
-.view-transcript-link.dark-theme {
-  border: 2px solid var(--theme-color-dark);
-}
-
-.view-transcript-link.light-theme,
-.education-details-link.light-theme {
-  color: var(--theme-color-light);
-}
-
-.view-transcript-link.dark-theme,
-.education-details-link.dark-theme {
-  color: var(--theme-color-dark);
-}
-
-.view-transcript-link.light-theme:hover{
-  background-color: #0056b3;
-  color: #ffffff;
-  border: #0056b3;
-}
-
-.view-transcript-link.dark-theme:hover{
-  background-color: #4CAF50;
-  color: #000000;
-  border: #4CAF50;
-}
-
-.view-transcript-link.dark-theme,
-.education-details-link.dark-theme {
-  color: var(--theme-color-dark);
-}
-
 .education-grade-duration,
 .education-grade-gpa {
   margin-top: .5rem;
@@ -560,8 +515,8 @@ body.dark-theme .caret-up path {
 .visit-website-btn {
   display: inline-block;
   border: none;
-  padding: .8rem;
-  border-radius: 40px;
+  padding: .5rem 1rem;
+  border-radius: 2rem;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
   text-decoration: none;
@@ -584,6 +539,53 @@ body.dark-theme .caret-up path {
 
 .visit-website-btn.dark-theme:hover {
   background-color: #4CAF50;
+}
+
+/* View Transcript button styles */
+
+.view-transcript-link {
+  margin-left: auto;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 2rem;  
+}
+
+.view-transcript-link.light-theme{
+  border: 1px solid var(--theme-color-light);
+}
+
+.view-transcript-link.dark-theme{
+  border: 1px solid var(--theme-color-dark);
+}
+
+.view-transcript-link.light-theme,
+.education-details-link.light-theme {
+  color: var(--theme-color-light);  
+}
+
+.view-transcript-link.dark-theme,
+.education-details-link.dark-theme {
+  color: var(--theme-color-dark);
+}
+
+.view-transcript-link.light-theme:hover{
+  background-color: #0056b3;
+  color: #ffffff;
+  border: #0056b3;
+}
+
+.view-transcript-link.dark-theme:hover{
+  background-color: #4CAF50;
+  color: #000000;
+  border: #4CAF50;
+}
+
+.view-transcript-link.dark-theme,
+.education-details-link.dark-theme {
+  color: var(--theme-color-dark);
 }
 
 /* Styles for larger screens (laptop and desktop) */
