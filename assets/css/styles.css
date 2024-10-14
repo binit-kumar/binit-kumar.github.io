@@ -508,6 +508,14 @@ body.dark-theme .caret-up path {
   margin: 0;
 }
 
+.education-details-link {
+  text-decoration: none;
+}
+
+.education-details-link:hover {
+  text-decoration: underline;
+}
+
 /* Visit Website Button Styles */
 .visit-website-btn {
   display: inline-block;
@@ -539,7 +547,6 @@ body.dark-theme .caret-up path {
 }
 
 /* View Transcript button styles */
-
 .view-transcript-link {
   margin-left: auto;
   text-decoration: none;
@@ -593,12 +600,12 @@ body.dark-theme .caret-up path {
     width: 70vw;
   }
 
-  #education,
-  #certifications {
+  #education {
     width: 60vw;
   }
 
   #skills,
+  #certifications,
   #contact {
     width: 80vw;
   }
@@ -759,13 +766,19 @@ body.dark-theme .caret-up path {
 
   /* Certifications Styles for larger screens */
 
+  .certifications-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
   .certifications-card-logo {
     height: 70%;
     width: auto;
   }
 
   .certifications-card-name {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .certifications-card-link {
