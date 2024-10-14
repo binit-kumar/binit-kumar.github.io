@@ -37,11 +37,14 @@ body {
   border: 0;
 }
 
-#home, #education {
+#home,
+#education {
   width: 90vw;
 }
 
-#skills, #certifications, #contact{
+#skills,
+#certifications,
+#contact {
   width: 70vw;
 }
 
@@ -304,54 +307,48 @@ footer p {
 .certifications-card-container {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 20px;
+  gap: 1.5rem;
 }
 
 .certifications-card {
   display: flex;
+  flex-direction: column;
+  padding: 1rem;
   border: 1px solid #ccc;
-  border-radius: 1rem;
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
+  border-radius: 5px;
+}
+
+.certifications-card .certifications-card-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: .5rem;
 }
 
 .certifications-card-logo {
-  width: 30%;
+  flex: 0 0 30%;
+  max-width: 30%;
   height: auto;
-  object-fit: contain;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
-.certifications-card-content {
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  width: 70%;
+.certifications-card-name {
+  flex: 0 0 70%;
+  max-width: 70%;
+  font-size: 1rem;
+  margin-bottom: auto;
+  text-align: center;
 }
 
 .certifications-card-links {
   display: flex;
-  justify-content: flex-end;
+  justify-content: right;
   gap: 1rem;
-  margin-top: auto;
-}
-
-.certifications-card-name {
-  font-size: 1.5rem;
-  margin: 10px 0;
-  text-align: center;
 }
 
 .certifications-card-link {
   text-decoration: none;
-  margin-top: auto;
-  align-self: flex-end;
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  border-radius: 2rem;
+  font-size: .5rem;
+  padding: .2rem .5rem;
+  border-radius: 1rem;
   transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
 }
 
@@ -402,12 +399,12 @@ footer p {
 
 /* Education Card Styles */
 .education-details {
-  position: relative;    
+  position: relative;
   margin: 0;
   padding: 0;
 }
 
-.education-details-title {   
+.education-details-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -550,20 +547,20 @@ body.dark-theme .caret-up path {
   text-align: center;
   padding: 0.5rem 1rem;
   font-size: 1rem;
-  border-radius: 2rem;  
+  border-radius: 2rem;
 }
 
-.view-transcript-link.light-theme{
+.view-transcript-link.light-theme {
   border: 1px solid var(--theme-color-light);
 }
 
-.view-transcript-link.dark-theme{
+.view-transcript-link.dark-theme {
   border: 1px solid var(--theme-color-dark);
 }
 
 .view-transcript-link.light-theme,
 .education-details-link.light-theme {
-  color: var(--theme-color-light);  
+  color: var(--theme-color-light);
 }
 
 .view-transcript-link.dark-theme,
@@ -571,13 +568,13 @@ body.dark-theme .caret-up path {
   color: var(--theme-color-dark);
 }
 
-.view-transcript-link.light-theme:hover{
+.view-transcript-link.light-theme:hover {
   background-color: #0056b3;
   color: #ffffff;
   border: #0056b3;
 }
 
-.view-transcript-link.dark-theme:hover{
+.view-transcript-link.dark-theme:hover {
   background-color: #4CAF50;
   color: #000000;
   border: #4CAF50;
@@ -590,16 +587,19 @@ body.dark-theme .caret-up path {
 
 /* Styles for larger screens (laptop and desktop) */
 @media (min-width: 1024px) {
+
   /* Default section width for laptop/desktop screen sizes */
-  #home{
+  #home {
     width: 70vw;
   }
 
-  #education{
+  #education,
+  #certifications {
     width: 60vw;
   }
 
-  #skills, #certifications, #contact {
+  #skills,
+  #contact {
     width: 80vw;
   }
 
@@ -616,18 +616,18 @@ body.dark-theme .caret-up path {
     background-color: transparent;
     width: auto;
   }
-  
+
   .nav-menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
   }
-  
+
   .nav-menu ul li {
     margin-left: 1rem;
   }
-  
+
   .nav-menu ul li a {
     color: #000000;
     font-size: 1.3rem;
@@ -635,7 +635,7 @@ body.dark-theme .caret-up path {
     padding: 5px 10px;
     transition: font-size 0.3s, border-bottom 0.3s;
   }
-  
+
   .nav-menu ul li a:hover {
     color: var(--theme-color-light);
     border-bottom: 4px solid var(--theme-color-light);
@@ -643,11 +643,12 @@ body.dark-theme .caret-up path {
 
   .dark-mode-image {
     display: block;
-  }  
+  }
 
   .hamburger-menu {
     display: none;
   }
+
   .hero {
     flex-direction: row;
     align-items: center;
@@ -660,12 +661,12 @@ body.dark-theme .caret-up path {
     margin-left: 2rem;
   }
 
-  .intro-text h1{
+  .intro-text h1 {
     text-align: left;
     font-size: 4rem;
   }
 
-  .intro-text p{
+  .intro-text p {
     font-size: 1rem;
   }
 
@@ -687,12 +688,39 @@ body.dark-theme .caret-up path {
   }
 
   /* Page header for larger screen sizes */
-  main section h1 {    
+  main section h1 {
     font-size: 4rem;
   }
 
-  /* Skills Card Styles for larger screen size */
+  /* Education card for regular screens */
+  .education-card {
+    flex-direction: row;
+    align-items: flex-start;
+  }
 
+  .education-logo {
+    align-self: center;
+  }
+
+  .education-logo img {
+    flex: 0 0 30%;
+    max-width: 200px;
+    height: 200px;
+    margin-bottom: 0;
+    padding: 1rem;
+  }
+
+  .education-content {
+    align-items: flex-start;
+    width: 70%;
+  }
+
+  .eduction-button-row {
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  /* Skills Card Styles for larger screen size */
   .skills-card-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
@@ -711,22 +739,41 @@ body.dark-theme .caret-up path {
   .skills-card h2 {
     font-size: 2rem;
   }
-  
+
   .skills-card-content img {
     width: 4rem;
     height: 4rem;
   }
 
   .skills-card-content img::after {
-    top: -1.5rem;    
+    top: -1.5rem;
   }
 
   .svg-label {
     font-size: 1rem !important;
   }
-  
+
   .svg-container:hover .svg-label {
     top: 4rem;
+  }
+
+  /* Certifications Styles for larger screens */
+
+  .certifications-card-logo {
+    height: 70%;
+    width: auto;
+  }
+
+  .certifications-card-name {
+    font-size: 3rem;
+  }
+
+  .certifications-card-link {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
   }
 
   /* Footer Styles for larger screens */
@@ -748,48 +795,6 @@ body.dark-theme .caret-up path {
   .footer-logo {
     height: 1.25rem;
     width: auto;
-  }
-
-  /* Certifications Styles for larger screens */
-  .certifications-card-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .certifications-card-logo {
-    width: 40%;
-    height: auto;
-  }
-
-  .certifications-card-name {
-    font-size: 2rem;
-  }
-
-  /* Education card for regular screens */
-  .education-card {
-    flex-direction: row;
-    align-items: flex-start;
-  }
-  
-  .education-logo {
-    align-self: center;
-  }
-
-  .education-logo img {
-    flex: 0 0 30%;
-    max-width: 200px;
-    height: 200px;
-    margin-bottom: 0;
-    padding: 1rem;    
-  }
-
-  .education-content {
-    align-items: flex-start;
-    width: 70%;
-  }
-
-  .eduction-button-row {
-    justify-content: flex-end;
-    width: 100%;
   }
 
 }
@@ -1110,6 +1115,7 @@ body.dark-theme #dynamic-text {
     transform: translateY(20%) rotateY(180deg);
     opacity: 0;
   }
+
   to {
     transform: translateY(0) rotateY(360deg);
     opacity: 1;
@@ -1125,6 +1131,7 @@ body.dark-theme #dynamic-text {
     opacity: 0;
     transform: translateX(-100%);
   }
+
   100% {
     opacity: 1;
     transform: translateX(0);
@@ -1139,6 +1146,7 @@ body.dark-theme #dynamic-text {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
