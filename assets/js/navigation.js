@@ -4,14 +4,23 @@ document.addEventListener('DOMContentLoaded', function () {
     const header = document.querySelector('header');
     const root = document.documentElement;
     const navMenu = document.querySelector('.nav-menu');
+    const footerYearElement = document.getElementById('current-year');
 
     function setHeaderHeight() {
         const headerHeight = header.offsetHeight;
         root.style.setProperty('--header-height', `${headerHeight}px`);
     }
 
+    function updateFooterYear() {
+        const currentYear = new Date().getFullYear();
+        footerYearElement.textContent = currentYear;
+    }
+
     // Set the header height on page load
     setHeaderHeight();
+
+    // Update the footer year on page load
+    updateFooterYear();
 
     // Update the header height on window resize
     window.addEventListener('resize', setHeaderHeight);
@@ -120,18 +129,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     svgContainers.forEach(container => {
         container.addEventListener('touchstart', function () {
-            const label = container.querySelector('.svg-label');
-            if (label) {
-                // Hide the previously shown label
-                if (lastTouchedLabel && lastTouchedLabel !== label) {
+            const svgLabel = container.querySelector('.svg-label');
+            if (svgLabel) {
+                if (lastTouchedLabel && lastTouchedLabel !== svgLabel) {
                     lastTouchedLabel.style.display = 'none';
                 }
-
-                // Toggle the display of the current label
-                label.style.display = label.style.display === 'block' ? 'none' : 'block';
-
-                // Update the last touched label
-                lastTouchedLabel = label;
+                svgLabel.style.display = svgLabel.style.display === 'block' ? 'none' : 'block';
+                lastTouchedLabel = svgLabel;
             }
         });
     });
