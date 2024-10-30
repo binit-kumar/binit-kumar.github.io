@@ -872,8 +872,8 @@ footer.dark-theme p {
   display: flex;
   align-items: center;
   position: relative;
-  width: 60px;
-  height: 34px;
+  width: 55px;
+  height: 31px;
 }
 
 .slider-checkbox {
@@ -897,10 +897,10 @@ footer.dark-theme p {
 .slider-label:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
+  height: 23.83px;
+  width: 23.83px;
+  left: 3.67px;
+  bottom: 3.67px;
   background-color: white;
   transition: .4s;
   border-radius: 50%;
@@ -911,7 +911,7 @@ footer.dark-theme p {
 }
 
 .slider-checkbox:checked+.slider-label:before {
-  transform: translateX(26px);
+  transform: translateX(23.83px);  
 }
 
 /* Image Links Styles */
