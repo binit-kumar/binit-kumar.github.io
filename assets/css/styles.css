@@ -903,7 +903,7 @@ footer.dark-theme p {
   bottom: 4px;
   background-color: white;
   transition: .4s;
-  border-radius: 50%;
+  border-radius: 50%;  
 }
 
 .slider-checkbox:checked+.slider-label {
