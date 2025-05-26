@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const feedbackInputs = document.querySelectorAll('.feedback-input');
   const submitButton = document.querySelector('[type="submit"]');
   const dynamicTextElement = document.getElementById('dynamic-text');
-  const roles = ["Full Stack Developer,", "Cloud Engineer,", "Principal Software Engineer,"];
+  const roles = ["Software Engineering Director,", "Cloud Engineer,"," Full-Stack Developer,"];
   const svgLabels = document.querySelectorAll('.svg-label');
   const caretRight = document.querySelector('.caret-right');
   const caretUp = document.querySelector('.caret-up');
