@@ -1,0 +1,1336 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "Binit Kumar Portfolio",
+    "languages": [
+      "html",
+      "css",
+      "javascript",
+      "svg",
+      "pdf",
+      "markdown"
+    ],
+    "frameworks": [],
+    "description": "Personal portfolio website built as a static HTML/CSS/JavaScript site showcasing education, skills, certifications, and contact links.",
+    "analyzedAt": "2026-05-30T20:15:53.285Z",
+    "gitCommitHash": "08bc27f86783b1b7dc646a0e53b88f03dc6ddeb0"
+  },
+  "nodes": [
+    {
+      "id": "file:assets/css/styles-min.css",
+      "type": "file",
+      "name": "styles-min.css",
+      "filePath": "assets/css/styles-min.css",
+      "summary": "Stylesheet assets/css/styles-min.css",
+      "tags": [
+        "frontend",
+        "style"
+      ]
+    },
+    {
+      "id": "file:assets/css/styles.css",
+      "type": "file",
+      "name": "styles.css",
+      "filePath": "assets/css/styles.css",
+      "summary": "Stylesheet assets/css/styles.css",
+      "tags": [
+        "frontend",
+        "style"
+      ]
+    },
+    {
+      "id": "document:assets/docs/aws-certificate.pdf",
+      "type": "document",
+      "name": "aws-certificate.pdf",
+      "filePath": "assets/docs/aws-certificate.pdf",
+      "summary": "PDF document assets/docs/aws-certificate.pdf",
+      "tags": [
+        "documentation",
+        "certificate",
+        "transcript"
+      ]
+    },
+    {
+      "id": "document:assets/docs/bachelors-transcript.pdf",
+      "type": "document",
+      "name": "bachelors-transcript.pdf",
+      "filePath": "assets/docs/bachelors-transcript.pdf",
+      "summary": "PDF document assets/docs/bachelors-transcript.pdf",
+      "tags": [
+        "documentation",
+        "certificate",
+        "transcript"
+      ]
+    },
+    {
+      "id": "document:assets/docs/csm-certificate.pdf",
+      "type": "document",
+      "name": "csm-certificate.pdf",
+      "filePath": "assets/docs/csm-certificate.pdf",
+      "summary": "PDF document assets/docs/csm-certificate.pdf",
+      "tags": [
+        "documentation",
+        "certificate",
+        "transcript"
+      ]
+    },
+    {
+      "id": "document:assets/docs/generative-ai-certificate.pdf",
+      "type": "document",
+      "name": "generative-ai-certificate.pdf",
+      "filePath": "assets/docs/generative-ai-certificate.pdf",
+      "summary": "PDF document assets/docs/generative-ai-certificate.pdf",
+      "tags": [
+        "documentation",
+        "certificate",
+        "transcript"
+      ]
+    },
+    {
+      "id": "document:assets/docs/github-certificate.pdf",
+      "type": "document",
+      "name": "github-certificate.pdf",
+      "filePath": "assets/docs/github-certificate.pdf",
+      "summary": "PDF document assets/docs/github-certificate.pdf",
+      "tags": [
+        "documentation",
+        "certificate",
+        "transcript"
+      ]
+    },
+    {
+      "id": "document:assets/docs/google-ai-essentials-certificate.pdf",
+      "type": "document",
+      "name": "google-ai-essentials-certificate.pdf",
+      "filePath": "assets/docs/google-ai-essentials-certificate.pdf",
+      "summary": "PDF document assets/docs/google-ai-essentials-certificate.pdf",
+      "tags": [
+        "documentation",
+        "certificate",
+        "transcript"
+      ]
+    },
+    {
+      "id": "document:assets/docs/masters-transcript.pdf",
+      "type": "document",
+      "name": "masters-transcript.pdf",
+      "filePath": "assets/docs/masters-transcript.pdf",
+      "summary": "PDF document assets/docs/masters-transcript.pdf",
+      "tags": [
+        "documentation",
+        "certificate",
+        "transcript"
+      ]
+    },
+    {
+      "id": "document:assets/docs/sharepoint-certificate.pdf",
+      "type": "document",
+      "name": "sharepoint-certificate.pdf",
+      "filePath": "assets/docs/sharepoint-certificate.pdf",
+      "summary": "PDF document assets/docs/sharepoint-certificate.pdf",
+      "tags": [
+        "documentation",
+        "certificate",
+        "transcript"
+      ]
+    },
+    {
+      "id": "file:assets/images/common/dark-mode.svg",
+      "type": "file",
+      "name": "dark-mode.svg",
+      "filePath": "assets/images/common/dark-mode.svg",
+      "summary": "Static asset assets/images/common/dark-mode.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/common/light-mode.svg",
+      "type": "file",
+      "name": "light-mode.svg",
+      "filePath": "assets/images/common/light-mode.svg",
+      "summary": "Static asset assets/images/common/light-mode.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/common/logo.svg",
+      "type": "file",
+      "name": "logo.svg",
+      "filePath": "assets/images/common/logo.svg",
+      "summary": "Static asset assets/images/common/logo.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/main/certifications/aws-cloud-quest.svg",
+      "type": "file",
+      "name": "aws-cloud-quest.svg",
+      "filePath": "assets/images/main/certifications/aws-cloud-quest.svg",
+      "summary": "Static asset assets/images/main/certifications/aws-cloud-quest.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/main/certifications/aws.svg",
+      "type": "file",
+      "name": "aws.svg",
+      "filePath": "assets/images/main/certifications/aws.svg",
+      "summary": "Static asset assets/images/main/certifications/aws.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/main/certifications/csm.svg",
+      "type": "file",
+      "name": "csm.svg",
+      "filePath": "assets/images/main/certifications/csm.svg",
+      "summary": "Static asset assets/images/main/certifications/csm.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/main/certifications/github.svg",
+      "type": "file",
+      "name": "github.svg",
+      "filePath": "assets/images/main/certifications/github.svg",
+      "summary": "Static asset assets/images/main/certifications/github.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/main/certifications/google-ai-essentials-v1.svg",
+      "type": "file",
+      "name": "google-ai-essentials-v1.svg",
+      "filePath": "assets/images/main/certifications/google-ai-essentials-v1.svg",
+      "summary": "Static asset assets/images/main/certifications/google-ai-essentials-v1.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/main/certifications/linkedin-learning.svg",
+      "type": "file",
+      "name": "linkedin-learning.svg",
+      "filePath": "assets/images/main/certifications/linkedin-learning.svg",
+      "summary": "Static asset assets/images/main/certifications/linkedin-learning.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/main/certifications/sharepoint.svg",
+      "type": "file",
+      "name": "sharepoint.svg",
+      "filePath": "assets/images/main/certifications/sharepoint.svg",
+      "summary": "Static asset assets/images/main/certifications/sharepoint.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/main/contact/github-logo.svg",
+      "type": "file",
+      "name": "github-logo.svg",
+      "filePath": "assets/images/main/contact/github-logo.svg",
+      "summary": "Static asset assets/images/main/contact/github-logo.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/main/contact/linkedin-logo.svg",
+      "type": "file",
+      "name": "linkedin-logo.svg",
+      "filePath": "assets/images/main/contact/linkedin-logo.svg",
+      "summary": "Static asset assets/images/main/contact/linkedin-logo.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/main/contact/x-logo.svg",
+      "type": "file",
+      "name": "x-logo.svg",
+      "filePath": "assets/images/main/contact/x-logo.svg",
+      "summary": "Static asset assets/images/main/contact/x-logo.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/main/education/bvp.svg",
+      "type": "file",
+      "name": "bvp.svg",
+      "filePath": "assets/images/main/education/bvp.svg",
+      "summary": "Static asset assets/images/main/education/bvp.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/main/education/caret-right.svg",
+      "type": "file",
+      "name": "caret-right.svg",
+      "filePath": "assets/images/main/education/caret-right.svg",
+      "summary": "Static asset assets/images/main/education/caret-right.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/main/education/caret-up.svg",
+      "type": "file",
+      "name": "caret-up.svg",
+      "filePath": "assets/images/main/education/caret-up.svg",
+      "summary": "Static asset assets/images/main/education/caret-up.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/main/education/uta.svg",
+      "type": "file",
+      "name": "uta.svg",
+      "filePath": "assets/images/main/education/uta.svg",
+      "summary": "Static asset assets/images/main/education/uta.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/main/home/hero.svg",
+      "type": "file",
+      "name": "hero.svg",
+      "filePath": "assets/images/main/home/hero.svg",
+      "summary": "Static asset assets/images/main/home/hero.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/profile.svg",
+      "type": "file",
+      "name": "profile.svg",
+      "filePath": "assets/images/profile.svg",
+      "summary": "Static asset assets/images/profile.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/cloud/aws-cert-manager.svg",
+      "type": "file",
+      "name": "aws-cert-manager.svg",
+      "filePath": "assets/images/skills/cloud/aws-cert-manager.svg",
+      "summary": "Static asset assets/images/skills/cloud/aws-cert-manager.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/cloud/aws-eks.svg",
+      "type": "file",
+      "name": "aws-eks.svg",
+      "filePath": "assets/images/skills/cloud/aws-eks.svg",
+      "summary": "Static asset assets/images/skills/cloud/aws-eks.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/cloud/aws-lambda.svg",
+      "type": "file",
+      "name": "aws-lambda.svg",
+      "filePath": "assets/images/skills/cloud/aws-lambda.svg",
+      "summary": "Static asset assets/images/skills/cloud/aws-lambda.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/cloud/aws-secrets-manager.svg",
+      "type": "file",
+      "name": "aws-secrets-manager.svg",
+      "filePath": "assets/images/skills/cloud/aws-secrets-manager.svg",
+      "summary": "Static asset assets/images/skills/cloud/aws-secrets-manager.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/cloud/aws.svg",
+      "type": "file",
+      "name": "aws.svg",
+      "filePath": "assets/images/skills/cloud/aws.svg",
+      "summary": "Static asset assets/images/skills/cloud/aws.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/cloud/azure.svg",
+      "type": "file",
+      "name": "azure.svg",
+      "filePath": "assets/images/skills/cloud/azure.svg",
+      "summary": "Static asset assets/images/skills/cloud/azure.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/cloud/cloudbees.svg",
+      "type": "file",
+      "name": "cloudbees.svg",
+      "filePath": "assets/images/skills/cloud/cloudbees.svg",
+      "summary": "Static asset assets/images/skills/cloud/cloudbees.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/cloud/datadog.svg",
+      "type": "file",
+      "name": "datadog.svg",
+      "filePath": "assets/images/skills/cloud/datadog.svg",
+      "summary": "Static asset assets/images/skills/cloud/datadog.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/cloud/docker.svg",
+      "type": "file",
+      "name": "docker.svg",
+      "filePath": "assets/images/skills/cloud/docker.svg",
+      "summary": "Static asset assets/images/skills/cloud/docker.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/cloud/jenkins.svg",
+      "type": "file",
+      "name": "jenkins.svg",
+      "filePath": "assets/images/skills/cloud/jenkins.svg",
+      "summary": "Static asset assets/images/skills/cloud/jenkins.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/cloud/terraform.svg",
+      "type": "file",
+      "name": "terraform.svg",
+      "filePath": "assets/images/skills/cloud/terraform.svg",
+      "summary": "Static asset assets/images/skills/cloud/terraform.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/cloud/vault.svg",
+      "type": "file",
+      "name": "vault.svg",
+      "filePath": "assets/images/skills/cloud/vault.svg",
+      "summary": "Static asset assets/images/skills/cloud/vault.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/frameworks/angular.svg",
+      "type": "file",
+      "name": "angular.svg",
+      "filePath": "assets/images/skills/frameworks/angular.svg",
+      "summary": "Static asset assets/images/skills/frameworks/angular.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/frameworks/dotnet-core.svg",
+      "type": "file",
+      "name": "dotnet-core.svg",
+      "filePath": "assets/images/skills/frameworks/dotnet-core.svg",
+      "summary": "Static asset assets/images/skills/frameworks/dotnet-core.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/frameworks/sharepoint.svg",
+      "type": "file",
+      "name": "sharepoint.svg",
+      "filePath": "assets/images/skills/frameworks/sharepoint.svg",
+      "summary": "Static asset assets/images/skills/frameworks/sharepoint.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/frameworks/springboot.svg",
+      "type": "file",
+      "name": "springboot.svg",
+      "filePath": "assets/images/skills/frameworks/springboot.svg",
+      "summary": "Static asset assets/images/skills/frameworks/springboot.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/languages/c-sharp.svg",
+      "type": "file",
+      "name": "c-sharp.svg",
+      "filePath": "assets/images/skills/languages/c-sharp.svg",
+      "summary": "Static asset assets/images/skills/languages/c-sharp.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/languages/css3.svg",
+      "type": "file",
+      "name": "css3.svg",
+      "filePath": "assets/images/skills/languages/css3.svg",
+      "summary": "Static asset assets/images/skills/languages/css3.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/languages/html5.svg",
+      "type": "file",
+      "name": "html5.svg",
+      "filePath": "assets/images/skills/languages/html5.svg",
+      "summary": "Static asset assets/images/skills/languages/html5.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/languages/java.svg",
+      "type": "file",
+      "name": "java.svg",
+      "filePath": "assets/images/skills/languages/java.svg",
+      "summary": "Static asset assets/images/skills/languages/java.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/languages/javascript.svg",
+      "type": "file",
+      "name": "javascript.svg",
+      "filePath": "assets/images/skills/languages/javascript.svg",
+      "summary": "Static asset assets/images/skills/languages/javascript.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/languages/sass.svg",
+      "type": "file",
+      "name": "sass.svg",
+      "filePath": "assets/images/skills/languages/sass.svg",
+      "summary": "Static asset assets/images/skills/languages/sass.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/languages/typescript.svg",
+      "type": "file",
+      "name": "typescript.svg",
+      "filePath": "assets/images/skills/languages/typescript.svg",
+      "summary": "Static asset assets/images/skills/languages/typescript.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/misc/akamai.svg",
+      "type": "file",
+      "name": "akamai.svg",
+      "filePath": "assets/images/skills/misc/akamai.svg",
+      "summary": "Static asset assets/images/skills/misc/akamai.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/misc/avi.svg",
+      "type": "file",
+      "name": "avi.svg",
+      "filePath": "assets/images/skills/misc/avi.svg",
+      "summary": "Static asset assets/images/skills/misc/avi.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/misc/confluence.svg",
+      "type": "file",
+      "name": "confluence.svg",
+      "filePath": "assets/images/skills/misc/confluence.svg",
+      "summary": "Static asset assets/images/skills/misc/confluence.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/misc/draw-io.svg",
+      "type": "file",
+      "name": "draw-io.svg",
+      "filePath": "assets/images/skills/misc/draw-io.svg",
+      "summary": "Static asset assets/images/skills/misc/draw-io.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/misc/f5.svg",
+      "type": "file",
+      "name": "f5.svg",
+      "filePath": "assets/images/skills/misc/f5.svg",
+      "summary": "Static asset assets/images/skills/misc/f5.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/misc/figma.svg",
+      "type": "file",
+      "name": "figma.svg",
+      "filePath": "assets/images/skills/misc/figma.svg",
+      "summary": "Static asset assets/images/skills/misc/figma.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/misc/grafana.svg",
+      "type": "file",
+      "name": "grafana.svg",
+      "filePath": "assets/images/skills/misc/grafana.svg",
+      "summary": "Static asset assets/images/skills/misc/grafana.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/misc/jfrog.svg",
+      "type": "file",
+      "name": "jfrog.svg",
+      "filePath": "assets/images/skills/misc/jfrog.svg",
+      "summary": "Static asset assets/images/skills/misc/jfrog.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/misc/jira.svg",
+      "type": "file",
+      "name": "jira.svg",
+      "filePath": "assets/images/skills/misc/jira.svg",
+      "summary": "Static asset assets/images/skills/misc/jira.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/misc/linux.svg",
+      "type": "file",
+      "name": "linux.svg",
+      "filePath": "assets/images/skills/misc/linux.svg",
+      "summary": "Static asset assets/images/skills/misc/linux.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/misc/ms-sql-db.svg",
+      "type": "file",
+      "name": "ms-sql-db.svg",
+      "filePath": "assets/images/skills/misc/ms-sql-db.svg",
+      "summary": "Static asset assets/images/skills/misc/ms-sql-db.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/misc/node-js.svg",
+      "type": "file",
+      "name": "node-js.svg",
+      "filePath": "assets/images/skills/misc/node-js.svg",
+      "summary": "Static asset assets/images/skills/misc/node-js.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/misc/npm.svg",
+      "type": "file",
+      "name": "npm.svg",
+      "filePath": "assets/images/skills/misc/npm.svg",
+      "summary": "Static asset assets/images/skills/misc/npm.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/misc/postgres-db.svg",
+      "type": "file",
+      "name": "postgres-db.svg",
+      "filePath": "assets/images/skills/misc/postgres-db.svg",
+      "summary": "Static asset assets/images/skills/misc/postgres-db.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/misc/power-bi.svg",
+      "type": "file",
+      "name": "power-bi.svg",
+      "filePath": "assets/images/skills/misc/power-bi.svg",
+      "summary": "Static asset assets/images/skills/misc/power-bi.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/misc/prometheus.svg",
+      "type": "file",
+      "name": "prometheus.svg",
+      "filePath": "assets/images/skills/misc/prometheus.svg",
+      "summary": "Static asset assets/images/skills/misc/prometheus.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/misc/splunk.svg",
+      "type": "file",
+      "name": "splunk.svg",
+      "filePath": "assets/images/skills/misc/splunk.svg",
+      "summary": "Static asset assets/images/skills/misc/splunk.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/misc/tableau.svg",
+      "type": "file",
+      "name": "tableau.svg",
+      "filePath": "assets/images/skills/misc/tableau.svg",
+      "summary": "Static asset assets/images/skills/misc/tableau.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/images/skills/misc/windows-server.svg",
+      "type": "file",
+      "name": "windows-server.svg",
+      "filePath": "assets/images/skills/misc/windows-server.svg",
+      "summary": "Static asset assets/images/skills/misc/windows-server.svg",
+      "tags": [
+        "frontend",
+        "image"
+      ]
+    },
+    {
+      "id": "file:assets/js/navigation-min.js",
+      "type": "file",
+      "name": "navigation-min.js",
+      "filePath": "assets/js/navigation-min.js",
+      "summary": "JavaScript module assets/js/navigation-min.js",
+      "tags": [
+        "frontend",
+        "behavior"
+      ]
+    },
+    {
+      "id": "file:assets/js/navigation.js",
+      "type": "file",
+      "name": "navigation.js",
+      "filePath": "assets/js/navigation.js",
+      "summary": "JavaScript module assets/js/navigation.js",
+      "tags": [
+        "frontend",
+        "behavior"
+      ]
+    },
+    {
+      "id": "file:assets/js/theme-toggle-min.js",
+      "type": "file",
+      "name": "theme-toggle-min.js",
+      "filePath": "assets/js/theme-toggle-min.js",
+      "summary": "JavaScript module assets/js/theme-toggle-min.js",
+      "tags": [
+        "frontend",
+        "behavior"
+      ]
+    },
+    {
+      "id": "file:assets/js/theme-toggle.js",
+      "type": "file",
+      "name": "theme-toggle.js",
+      "filePath": "assets/js/theme-toggle.js",
+      "summary": "JavaScript module assets/js/theme-toggle.js",
+      "tags": [
+        "frontend",
+        "behavior"
+      ]
+    },
+    {
+      "id": "file:index.html",
+      "type": "file",
+      "name": "index.html",
+      "filePath": "index.html",
+      "summary": "HTML page index.html",
+      "tags": [
+        "frontend",
+        "markup"
+      ]
+    },
+    {
+      "id": "document:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "Documentation README.md",
+      "tags": [
+        "documentation",
+        "overview"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/profile.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/css/styles-min.css",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:index.html",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "document:assets/docs/masters-transcript.pdf",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "document:assets/docs/bachelors-transcript.pdf",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "document:assets/docs/google-ai-essentials-certificate.pdf",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "document:assets/docs/generative-ai-certificate.pdf",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "document:assets/docs/github-certificate.pdf",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "document:assets/docs/csm-certificate.pdf",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "document:assets/docs/aws-certificate.pdf",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "document:assets/docs/sharepoint-certificate.pdf",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/js/theme-toggle-min.js",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/js/navigation-min.js",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/common/logo.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/main/education/uta.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/main/education/bvp.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/languages/c-sharp.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/languages/java.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/languages/html5.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/languages/css3.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/languages/sass.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/languages/javascript.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/languages/typescript.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/frameworks/dotnet-core.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/frameworks/sharepoint.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/frameworks/angular.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/frameworks/springboot.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/cloud/aws.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/cloud/azure.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/cloud/docker.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/cloud/aws-eks.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/cloud/aws-cert-manager.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/cloud/aws-lambda.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/cloud/aws-secrets-manager.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/cloud/cloudbees.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/cloud/jenkins.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/cloud/vault.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/cloud/terraform.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/cloud/datadog.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/misc/figma.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/misc/f5.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/misc/avi.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/misc/akamai.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/misc/windows-server.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/misc/linux.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/misc/ms-sql-db.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/misc/postgres-db.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/misc/jfrog.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/misc/node-js.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/misc/npm.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/misc/grafana.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/misc/prometheus.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/misc/splunk.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/misc/tableau.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/misc/power-bi.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/misc/jira.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/misc/confluence.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/skills/misc/draw-io.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/main/certifications/google-ai-essentials-v1.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/main/certifications/aws-cloud-quest.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/main/certifications/linkedin-learning.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/main/certifications/github.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/main/certifications/csm.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/main/certifications/aws.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/main/certifications/sharepoint.svg",
+      "type": "imports"
+    },
+    {
+      "source": "file:index.html",
+      "target": "file:assets/images/common/logo.svg",
+      "type": "imports"
+    }
+  ],
+  "layers": [
+    {
+      "id": "layer:presentation",
+      "name": "Presentation Layer",
+      "description": "The website surface, styling, and behavior for the portfolio landing page.",
+      "nodeIds": [
+        "file:assets/css/styles-min.css",
+        "file:assets/css/styles.css",
+        "file:assets/images/common/dark-mode.svg",
+        "file:assets/images/common/light-mode.svg",
+        "file:assets/images/common/logo.svg",
+        "file:assets/images/main/certifications/aws-cloud-quest.svg",
+        "file:assets/images/main/certifications/aws.svg",
+        "file:assets/images/main/certifications/csm.svg",
+        "file:assets/images/main/certifications/github.svg",
+        "file:assets/images/main/certifications/google-ai-essentials-v1.svg",
+        "file:assets/images/main/certifications/linkedin-learning.svg",
+        "file:assets/images/main/certifications/sharepoint.svg",
+        "file:assets/images/main/contact/github-logo.svg",
+        "file:assets/images/main/contact/linkedin-logo.svg",
+        "file:assets/images/main/contact/x-logo.svg",
+        "file:assets/images/main/education/bvp.svg",
+        "file:assets/images/main/education/caret-right.svg",
+        "file:assets/images/main/education/caret-up.svg",
+        "file:assets/images/main/education/uta.svg",
+        "file:assets/images/main/home/hero.svg",
+        "file:assets/images/profile.svg",
+        "file:assets/images/skills/cloud/aws-cert-manager.svg",
+        "file:assets/images/skills/cloud/aws-eks.svg",
+        "file:assets/images/skills/cloud/aws-lambda.svg",
+        "file:assets/images/skills/cloud/aws-secrets-manager.svg",
+        "file:assets/images/skills/cloud/aws.svg",
+        "file:assets/images/skills/cloud/azure.svg",
+        "file:assets/images/skills/cloud/cloudbees.svg",
+        "file:assets/images/skills/cloud/datadog.svg",
+        "file:assets/images/skills/cloud/docker.svg",
+        "file:assets/images/skills/cloud/jenkins.svg",
+        "file:assets/images/skills/cloud/terraform.svg",
+        "file:assets/images/skills/cloud/vault.svg",
+        "file:assets/images/skills/frameworks/angular.svg",
+        "file:assets/images/skills/frameworks/dotnet-core.svg",
+        "file:assets/images/skills/frameworks/sharepoint.svg",
+        "file:assets/images/skills/frameworks/springboot.svg",
+        "file:assets/images/skills/languages/c-sharp.svg",
+        "file:assets/images/skills/languages/css3.svg",
+        "file:assets/images/skills/languages/html5.svg",
+        "file:assets/images/skills/languages/java.svg",
+        "file:assets/images/skills/languages/javascript.svg",
+        "file:assets/images/skills/languages/sass.svg",
+        "file:assets/images/skills/languages/typescript.svg",
+        "file:assets/images/skills/misc/akamai.svg",
+        "file:assets/images/skills/misc/avi.svg",
+        "file:assets/images/skills/misc/confluence.svg",
+        "file:assets/images/skills/misc/draw-io.svg",
+        "file:assets/images/skills/misc/f5.svg",
+        "file:assets/images/skills/misc/figma.svg",
+        "file:assets/images/skills/misc/grafana.svg",
+        "file:assets/images/skills/misc/jfrog.svg",
+        "file:assets/images/skills/misc/jira.svg",
+        "file:assets/images/skills/misc/linux.svg",
+        "file:assets/images/skills/misc/ms-sql-db.svg",
+        "file:assets/images/skills/misc/node-js.svg",
+        "file:assets/images/skills/misc/npm.svg",
+        "file:assets/images/skills/misc/postgres-db.svg",
+        "file:assets/images/skills/misc/power-bi.svg",
+        "file:assets/images/skills/misc/prometheus.svg",
+        "file:assets/images/skills/misc/splunk.svg",
+        "file:assets/images/skills/misc/tableau.svg",
+        "file:assets/images/skills/misc/windows-server.svg",
+        "file:assets/js/navigation-min.js",
+        "file:assets/js/navigation.js",
+        "file:assets/js/theme-toggle-min.js",
+        "file:assets/js/theme-toggle.js",
+        "file:index.html"
+      ]
+    },
+    {
+      "id": "layer:documentation",
+      "name": "Documentation and Credentials",
+      "description": "PDF documents and supporting documentation used to present certifications and transcripts.",
+      "nodeIds": [
+        "document:assets/docs/aws-certificate.pdf",
+        "document:assets/docs/bachelors-transcript.pdf",
+        "document:assets/docs/csm-certificate.pdf",
+        "document:assets/docs/generative-ai-certificate.pdf",
+        "document:assets/docs/github-certificate.pdf",
+        "document:assets/docs/google-ai-essentials-certificate.pdf",
+        "document:assets/docs/masters-transcript.pdf",
+        "document:assets/docs/sharepoint-certificate.pdf",
+        "document:README.md"
+      ]
+    }
+  ],
+  "tour": [
+    {
+      "order": 1,
+      "title": "Site Overview",
+      "description": "Start with the main portfolio page and project README to understand the site structure and purpose.",
+      "nodeIds": [
+        "file:index.html",
+        "document:README.md"
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Frontend Styling and Interaction",
+      "description": "Explore how the landing page layout is styled and how navigation/theme toggling is implemented.",
+      "nodeIds": [
+        "file:assets/css/styles.css",
+        "file:assets/js/navigation.js",
+        "file:assets/js/theme-toggle.js"
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Certifications and Documents",
+      "description": "Review the documents that support the resume and certification evidence presented on the site.",
+      "nodeIds": [
+        "document:assets/docs/aws-certificate.pdf",
+        "document:assets/docs/bachelors-transcript.pdf",
+        "document:assets/docs/csm-certificate.pdf",
+        "document:assets/docs/generative-ai-certificate.pdf",
+        "document:assets/docs/github-certificate.pdf",
+        "document:assets/docs/google-ai-essentials-certificate.pdf",
+        "document:assets/docs/masters-transcript.pdf",
+        "document:assets/docs/sharepoint-certificate.pdf"
+      ]
+    }
+  ]
+}

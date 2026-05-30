@@ -162,13 +162,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Main Functionality
 
-  // Detect the current theme
-  const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: light)');
+  // Detect the current theme preference
+  const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
 
-  // Apply the initial theme
-  applyTheme(prefersDarkScheme.matches ? 'dark' : 'light');
+  // Apply dark theme by default
+  applyTheme('dark');
 
-  // Listen for changes in the theme
+  // Listen for changes in the theme preference
   prefersDarkScheme.addEventListener('change', (e) => {
     applyTheme(e.matches ? 'dark' : 'light');
   });
