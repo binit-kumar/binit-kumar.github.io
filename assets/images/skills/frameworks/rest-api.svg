@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" shape-rendering="geometricPrecision">
+  <defs>
+    <linearGradient id="apiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3A78FF"/>
+      <stop offset="55%" stop-color="#8E49FF"/>
+      <stop offset="100%" stop-color="#D434FF"/>
+    </linearGradient>
+    <linearGradient id="apiTextGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#E7E8FF"/>
+      <stop offset="100%" stop-color="#C89EFF"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M 59.000,32.000 L 51.401,40.036 L 51.092,51.092 L 40.036,51.401 L 32.000,59.000 L 23.964,51.401 L 12.908,51.092 L 12.599,40.036 L 5.000,32.000 L 12.599,23.964 L 12.908,12.908 L 23.964,12.599 L 32.000,5.000 L 40.036,12.599 L 51.092,12.908 L 51.401,23.964 Z" fill="url(#apiGradient)"/>
+  <circle cx="32" cy="32" r="14" fill="none" stroke="#FFFFFF" stroke-width="4" opacity="0.95"/>
+  <circle cx="32" cy="32" r="11" fill="rgba(255,255,255,0.1)"/>
+
+  <g fill="url(#apiTextGradient)">
+    <path d="M18 42 L23 22 H27 L32 42 H29 L29 34 H25 L24 42 Z"/>
+    <path d="M33 42 V22 H37 C40 22 41.5 24.4 41.5 27 C41.5 29.4 40.2 32 37 32 H35 V42 Z M37 30 C39 30 39.5 28.5 39.5 27 C39.5 25.8 39 24 37 24 H35 V30 H37 Z"/>
+    <rect x="44" y="22" width="4" height="20" rx="1"/>
+  </g>
+</svg>
